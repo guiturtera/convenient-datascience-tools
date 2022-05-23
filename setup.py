@@ -1,13 +1,20 @@
 import setuptools
 
-setuptools.setup(
-    name="convenient-datascience-tools",
-    version="0.0.1",
+from setuptools import setup, find_packages
+
+
+setup(
+    name='convenient-datascience-tools',
+    version='0.0.6',
+    license='MIT',
     author="Guilherme Turtera",
-    long_description="Useful tools for handling data, using many known data science packages.",
-    long_description_content_type='text/markdown',
-    description="DataScience Tools",
-    packages=["tools"],
-    python_requires = ">=3.9.12",
-    install_requires=["pandas"],
+    author_email='guiturtera@hotmail.com',
+    packages=find_packages('src'),
+    package_dir={'': 'src'},
+    url='https://github.com/guiturtera/convenient-datascience-tools',
+    keywords='data science tool',
+    install_requires=[
+          'pandas',
+      ],
+
 )

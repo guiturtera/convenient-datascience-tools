@@ -1,6 +1,6 @@
 import pandas as pd
 
-def check_types(df: pd.Dataframe):
+def check_types(df: pd.DataFrame):
     """ verifica os tipos de df de cada coluna do geral.
     INPUT:
     df - o geral analisado
