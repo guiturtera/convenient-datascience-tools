@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name='convenient-datascience-tools',
-    version='0.0.7',
+    version='0.0.9',
     license='MIT',
     author="Guilherme Turtera",
     author_email='guiturtera@hotmail.com',
